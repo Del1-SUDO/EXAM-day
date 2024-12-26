@@ -570,18 +570,6 @@ video {
   right: 0px;
 }
 
-.order-2 {
-  order: 2;
-}
-
-.order-1 {
-  order: 1;
-}
-
-.clear-start {
-  clear: inline-start;
-}
-
 .m-auto {
   margin: auto;
 }
@@ -621,34 +609,6 @@ video {
   width: fit-content;
 }
 
-.w-\[\] {
-  width: ;
-}
-
-.w-\[70\%\] {
-  width: 70%;
-}
-
-.w-\[60\%\] {
-  width: 60%;
-}
-
-.w-\[50\%\] {
-  width: 50%;
-}
-
-.w-\[150\%\] {
-  width: 150%;
-}
-
-.w-\[1\] {
-  width: 1;
-}
-
-.w-\[300px\] {
-  width: 300px;
-}
-
 .flex-col {
   flex-direction: column;
 }
@@ -657,8 +617,16 @@ video {
   flex-wrap: wrap;
 }
 
+.items-start {
+  align-items: flex-start;
+}
+
 .items-center {
   align-items: center;
+}
+
+.items-baseline {
+  align-items: baseline;
 }
 
 .justify-center {
@@ -695,6 +663,14 @@ video {
 
 .gap-\[35px\] {
   gap: 35px;
+}
+
+.gap-\[50px\] {
+  gap: 50px;
+}
+
+.gap-\[5px\] {
+  gap: 5px;
 }
 
 .rounded-3xl {
@@ -878,6 +854,10 @@ video {
     gap: 1.25rem;
   }
 
+  .sm\:gap-\[10px\] {
+    gap: 10px;
+  }
+
   .sm\:p-\[25px\] {
     padding: 25px;
   }
@@ -984,6 +964,10 @@ video {
 
   .xl\:gap-5 {
     gap: 1.25rem;
+  }
+
+  .xl\:gap-\[20px\] {
+    gap: 20px;
   }
 
   .xl\:px-\[75px\] {
