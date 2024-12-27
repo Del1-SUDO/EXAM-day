@@ -584,11 +584,6 @@ video {
   margin-bottom: 20px;
 }
 
-.my-\[10px\] {
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
 .mb-\[160px\] {
   margin-bottom: 160px;
 }
@@ -609,6 +604,10 @@ video {
   width: 100%;
 }
 
+.w-\[120px\] {
+  width: 120px;
+}
+
 .w-\[195px\] {
   width: 195px;
 }
@@ -618,20 +617,12 @@ video {
   width: fit-content;
 }
 
-.w-\[120px\] {
-  width: 120px;
-}
-
 .flex-col {
   flex-direction: column;
 }
 
 .flex-wrap {
   flex-wrap: wrap;
-}
-
-.items-start {
-  align-items: flex-start;
 }
 
 .items-center {
@@ -692,10 +683,6 @@ video {
 
 .rounded-lg {
   border-radius: 0.5rem;
-}
-
-.rounded {
-  border-radius: 0.25rem;
 }
 
 .rounded-xl {
@@ -850,11 +837,6 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
-.text-black {
-  --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity, 1));
-}
-
 @media (min-width: 320px) {
   .sm\:m-auto {
     margin: auto;
@@ -899,10 +881,6 @@ video {
 
   .sm\:gap-\[10px\] {
     gap: 10px;
-  }
-
-  .sm\:gap-3 {
-    gap: 0.75rem;
   }
 
   .sm\:p-\[25px\] {
@@ -1017,16 +995,8 @@ video {
     width: 90%;
   }
 
-  .xl\:w-\[49\%\] {
-    width: 49%;
-  }
-
   .xl\:flex-row {
     flex-direction: row;
-  }
-
-  .xl\:flex-col {
-    flex-direction: column;
   }
 
   .xl\:items-center {
@@ -1037,16 +1007,16 @@ video {
     justify-content: space-between;
   }
 
+  .xl\:gap-0 {
+    gap: 0px;
+  }
+
   .xl\:gap-5 {
     gap: 1.25rem;
   }
 
   .xl\:gap-\[20px\] {
     gap: 20px;
-  }
-
-  .xl\:gap-0 {
-    gap: 0px;
   }
 
   .xl\:px-\[75px\] {
